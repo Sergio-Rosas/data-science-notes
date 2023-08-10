@@ -1,0 +1,52 @@
+import numpy as np
++There is 2 ways to call an element in an array: matrix[0][0] and matrix[0,0]
++Chunks of the array can be selected with slice selection: matrix[0:2, 3:7]
++The bracket notation allows operations inside to compare each element of the array with the statement: array[array > 5]
+    It returns an array with the elements that fulfill the condition.
+
+*Arrays:
+
+-NumPy methods:
+np.array(list) --> Creates a NumPy array.
+np.arange([start], end[, step]) --> Creates a range NumPy array.
+np.zeros(number|tuple) --> Creates an array of zeroes.
+np.ones(number|tuple) --> Creates an array of ones.
+np.linspace(start, end, space) --> Creates a one dimensional array of number "space" between "start" and "end" numbers
+    inclusive with the same distance between numbers.
+np.eye(number) --> Creates an identity matrix.
+np.nan --> Returns a NaN value (missing value).
+
+-Array methods
+.reshape(rows, columns) --> Converts an array to a matrix. It has to be the same number of elements the array has.
+.max() --> Returns the max value in the array.
+.min() --> Returns the min value in the array.
+.argmax() --> Returns the index of the max value in the array.
+.argmin() --> Returns the index of the min value in the array.
+.copy() --> Creates a copy of the array.
+
+-Array attributes
+.shape --> Returns a tuple with the shape of the array.
+.dtype --> Returns the data type of the array.
+
+
+*Random: np.random
+.rand(num[, num]) --> Creates a random array from 0 to 1.
+.randn(num[, num]) --> Creates a random array with normal distribution.
+.randint(low, high[, count]) --> Creates a random array from integer numbers between "low" (inclusive) and "high" with
+    "count" as the number of values.
+
+
+*Operations
+(Between two arrays will perform the operation in the same index, between an array and a number, will perform the operation
+    on each element with that number)
++, -, *, /, %, //, **
+np.sum(array) --> Returns the sum of all the elements.
+np.sqrt(array) --> Returns the square root of each element of the array.
+np.exp(array) -->
+np.max(array) --> Same as .max() array method.
+np.min(array) --> Same as .min() array method.
+np.sin(array) --> Returns the sine of each element of the array.
+np.cos(array) --> Returns the cosine of each element of the array.
+np.log(array) --> Returns the logarithm of each element of the array.
+np.std(array) --> Returns the standard deviation of all the elements.
+np.mean(array) --> Returns the average (mean) of the elements.

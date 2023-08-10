@@ -1,0 +1,41 @@
+import seaborn as sns
+
+sns.set_style(style) -->
+sns.despine(type) -->
+sns.set_context(context) -->
+
+Plots:
+sns.displot(dataframe_column[, kde, bins]) -->
+sns.jointplot(x, y, dataframe[, kind]) -->
+sns.pairplot(dataframe[, hue, palette]) -->
+sns.rugplot(dataframe_column) -->
+sns.kdeplot(dataframe_column) -->
+
+
+Categorical plots:
+sns.barplot(x, y, dataframe[, estimator]) -->
+sns.countplot(x, dataframe) -->
+sns.boxplot(x, y, dataframe[, hue) -->
+sns.violinplot(x, y, dataframe[, hue, split]) -->
+sns.stripplot(x, y, dataframe[, jitter, hue, split]) -->
+sns.swarmplot(x, y, dataframe[, color] -->
+
+sns.factorplot(x, y, dataframe, kind) -->
+
+
+Matrix plots:
+sns.heatmap(dataframe[, annot, cmap, linecolor, linewidths]) -->
+sns.clustermap(dataframe[, cmap, standard_scale]) -->
+
+
+Grid plots:
+sns.PairGrid(dataframe) -->
+sns.FacetGrid(dataframe, col, row) -->
+.map(plot[, col])
+.map_diag(plot)
+.map_upper(plot)
+.map_lower(plot)
+
+
+Regression plots:
+sns.lmplot(x, y, dataframe[, hue, markers, scatter_kws, col, row, aspect, size, palette, color]) -->

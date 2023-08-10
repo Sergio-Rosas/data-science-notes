@@ -1,0 +1,77 @@
+import pandas as pd
+
++To call a row it is done with the label in Dictionary notation: my_series["Index name or number"]
++To call a column on a data frame is the same as in a series. Various columns can be called if one passes a list of its
+    names: my_df[["name1", "name2"]]
++Data Frames are compatible with NumPy comparison notation too: my_df[my_df["name"] < 0] will return only the rows that
+    have values on the column name that are less than zero.
++Multi index Data Frames are called with chained ".loc" methods.
+
+*Series
+pd.Series(data, index) --> Creates a series from lists, arrays, dictionaries.
+
+
+*Data Frames
+pd.DataFrame(data, index, columns) --> Creates a data frame (a list of series).
+pd.concat([list_of_data][, axis]) --> Concatenate Data Frames.
+pd.merge(left_df, right_df[, how], on) --> Merges Data Frames based on a column.
+
+-Methods:
+.head() --> Shows only the n rows of the Data Frame.
+.info() --> Shows information about the Data Frame.
+.drop(column_name, axis, inplace) --> Deletes the series specified. Axis 0 for rows, 1 for columns.
+.dropna([axis, thresh]) --> Will drop any row or column with missing values. "Thresh" will put a threshold on how many
+    good values can be kept.
+.loc["name" | ["index_name", "column_name"] | [from_index, to_index], [from_column, to_column]] --> Returns a row, an
+    element, or a range of elements.
+.iloc[number] --> Returns a row in a series form with the index of the row.
+.reset_index([inplace]) --> Resets the indexes to their default numbers but create a column with the old indexes.
+.set_index(column_name) --> Replace the indexes with the column specified.
+.xs(name | number[, level]) --> Used in multi index Data Frames. Can return information from different groups.
+.fillna([value]) --> Will fill missing values.
+.groupby(colum_name) --> Groups the data by a column name. It returns a groupby object in which operations can be performed.
+.describe() --> Shows a bunch of information about the data.
+.transpose() --> Transpose the DataFrame.
+.join(other_df[, how]) --> Joins Data Frames based on the index.
+.unique() --> Returns unique values in data.
+.nunique() --> Returns the number of unique values in data.
+.value_counts([column_name]) --> Returns how many of each value are in the data.
+.apply(func) --> Applies a function to each value of a Data Frame.
+.sort_values(by) --> Sorts the Data Frame "by" the name or index specified.
+.isnull() --> Returns a boolean Data Frame showing null elements.
+.pivot_table(values, index, columns) --> Creates a pivot table to show the "values" of that column arranged in "index"
+    groups with "columns" specified.
+
+-Properties:
+.shape --> Shows the shape of the data frame in a tuple in the form (row, column)
+.index --> Shows information of the indices.
+.index.names --> Shows or sets the names of the indexes.
+.columns --> Returns a list of column names.
+
+
+*Operations
+(They will compare the values with the same index and will try to perform the operation).
++,
+Instead of "and", "&" has to be used.
+Instead of "or", "|" has to be used.
+
+
+*Input and output
+pd.read_csv(csv_file) --> Reads and converts to a Data Frame a CSV file.
+.to_csv(csv_name[, index]) --> Outputs the selected Data Frame as CSV. The index=false will prevent to save the index column.
+pd.read_excel(excel_file, sheetname) --> Reads and converts to a Data Frame an Excel file.
+.to_excel(excel_name, sheet_name) --> Outputs the selected Data Frame as an Excel file.
+pd.read_html(url) --> Reads a website and converts every table found there to a list.
+
+
+*Built-in Visualization (It's based on Matplotlib and can use Seaborn as default if it's imported).
+.hist([bins]) --> Histogram plot.
+.plot(kind[, binds]) --> Plots the datagrame with the visualization "kind" specified.
+    .hist()
+    .area()
+    .bar([stacked])
+    .line(x, y)
+    .scatter(x, y)
+    .box()
+    .hexbin(x, y)
+    .kde() == .density()

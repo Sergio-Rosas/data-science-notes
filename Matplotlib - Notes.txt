@@ -1,0 +1,30 @@
+import matplotlib.pyplot as plt
+
+plt.show() --> Shows the graphic.
+plt.plot(x, y) -->
+
+plt.xlabel(name) --> Puts a label on the X axis.
+plt.ylabel(name) --> Puts a label on the Y axis.
+plt.title(name) --> Puts a title in the graphic.
+plt.subplot(rows, columns, plot) -->
+
+
+*Object Oriented Method.
+plt.figure([figsize, dpi]) --> Creates a canvas.
+
+-Figure methods
+.add_axes([left, bottom, width, height]) --> Defines the axis of the canvas.
+.plot(x, y[, label, color, linewidth, alpha, linestyle, marker, markersize, markerfacecolor, markeredgewidth, markeredgecolor]) -->
+.set_xlabel(name) --> Puts a label on the X axis.
+.set_ylabel(name) --> Puts a label on the Y axis.
+.set_title(name) --> Puts a title in the graphic.
+.subplots(nrows, ncols) -->
+.tight_layout() --> To limit overlapping.
+.legend([loc]) --> Adds a label to clarify what thing belongs to what data.
+.set_xlim([low, high]) --> Sets the X axis limit on numbers.
+.set_ylim([low, high]) --> Sets the Y axis limit on numbers.
+.margins(x, y) --> Sets the margin of each axis (how far they are from the axis lines).
+
+
+*Save a figure
+.savefig(name_with_extension[, dpi]) --> Outputs the figure and save it to the format specified.

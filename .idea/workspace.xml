@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07bc380b-fc95-4819-bbef-d2b30c376d47" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TPXujLLA28iccha3PBeeiDzNJ7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Data Science" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07bc380b-fc95-4819-bbef-d2b30c376d47" name="Default Changelist" comment="" />
+      <created>1690945913939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690945913939</updated>
+      <workItem from="1690945915606" duration="885000" />
+      <workItem from="1691113090614" duration="7083000" />
+      <workItem from="1691197433367" duration="7975000" />
+      <workItem from="1691285480091" duration="5312000" />
+      <workItem from="1691459325463" duration="6094000" />
+      <workItem from="1691538173853" duration="4708000" />
+      <workItem from="1691629504429" duration="697000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="447" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1690946001259">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="447" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1690946001259" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1691629603597">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="-1387" y="151" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1920.-124.1920.1050@-1920.-124.1920.1050" timestamp="1691538232859" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1920.-124.1920.1050@0.0.1366.738" timestamp="1691459333167" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1691629603597" />
+    <state x="-1297" y="103" width="672" height="678" key="search.everywhere.popup" timestamp="1691465946154">
+      <screen x="-1920" y="-124" width="1920" height="1050" />
+    </state>
+    <state x="-1297" y="103" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/-1920.-124.1920.1050@-1920.-124.1920.1050" timestamp="1691465946154" />
+  </component>
+</project>
