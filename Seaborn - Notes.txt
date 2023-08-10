@@ -15,10 +15,10 @@ sns.kdeplot(dataframe_column) -->
 Categorical plots:
 sns.barplot(x, y, dataframe[, estimator]) -->
 sns.countplot(x, dataframe) -->
-sns.boxplot(x, y, dataframe[, hue) -->
+sns.boxplot(x, y, dataframe[, hue]) -->
 sns.violinplot(x, y, dataframe[, hue, split]) -->
 sns.stripplot(x, y, dataframe[, jitter, hue, split]) -->
-sns.swarmplot(x, y, dataframe[, color] -->
+sns.swarmplot(x, y, dataframe[, color]) -->
 
 sns.factorplot(x, y, dataframe, kind) -->
 
