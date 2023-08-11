@@ -29,7 +29,7 @@ pd.merge(left_df, right_df[, how], on) --> Merges Data Frames based on a column.
 .set_index(column_name) --> Replace the indexes with the column specified.
 .xs(name | number[, level]) --> Used in multi index Data Frames. Can return information from different groups.
 .fillna([value]) --> Will fill missing values.
-.groupby(colum_name) --> Groups the data by a column name. It returns a groupby object in which operations can be performed.
+.groupby(colum_name[, by]) --> Groups the data by a column(s) name. It returns a groupby object in which operations can be performed.
 .describe() --> Shows a bunch of information about the data.
 .transpose() --> Transpose the DataFrame.
 .join(other_df[, how]) --> Joins Data Frames based on the index.
