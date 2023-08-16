@@ -10,6 +10,7 @@ sns.jointplot(x, y, dataframe[, kind]) -->
 sns.pairplot(dataframe[, hue, palette]) -->
 sns.rugplot(dataframe_column) -->
 sns.kdeplot(dataframe_column) -->
+sns.histplot(data, x, y) -->
 
 
 Categorical plots:
@@ -19,6 +20,7 @@ sns.boxplot(x, y, dataframe[, hue]) -->
 sns.violinplot(x, y, dataframe[, hue, split]) -->
 sns.stripplot(x, y, dataframe[, jitter, hue, split]) -->
 sns.swarmplot(x, y, dataframe[, color]) -->
+sns.lineplot(dataframe, x, y] --> 
 
 sns.factorplot(x, y, dataframe, kind) -->
 

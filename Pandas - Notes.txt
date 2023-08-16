@@ -17,7 +17,8 @@ pd.concat([list_of_data][, axis]) --> Concatenate Data Frames.
 pd.merge(left_df, right_df[, how], on) --> Merges Data Frames based on a column.
 
 -Methods:
-.head() --> Shows only the n rows of the Data Frame.
+.head([n]) --> Shows only the first n rows of the Data Frame.
+.tail([n]) --> Shows only the last n rows of the Data Frame.
 .info() --> Shows information about the Data Frame.
 .drop(column_name, axis, inplace) --> Deletes the series specified. Axis 0 for rows, 1 for columns.
 .dropna([axis, thresh]) --> Will drop any row or column with missing values. "Thresh" will put a threshold on how many
@@ -41,6 +42,10 @@ pd.merge(left_df, right_df[, how], on) --> Merges Data Frames based on a column.
 .isnull() --> Returns a boolean Data Frame showing null elements.
 .pivot_table(values, index, columns) --> Creates a pivot table to show the "values" of that column arranged in "index"
     groups with "columns" specified.
+.idxmax() --> Returns the index value of the max value in a column.
+.idxmin() --> Returns the index value of the min value in a column.
+.filter([like, axis]) -->
+.get_dummies(column[, drop_first) -->
 
 -Properties:
 .shape --> Shows the shape of the data frame in a tuple in the form (row, column)
@@ -66,7 +71,7 @@ pd.read_html(url) --> Reads a website and converts every table found there to a 
 
 *Built-in Visualization (It's based on Matplotlib and can use Seaborn as default if it's imported).
 .hist([bins]) --> Histogram plot.
-.plot(kind[, binds]) --> Plots the datagrame with the visualization "kind" specified.
+.plot(kind[, binds]) --> Plots the dataframe with the visualization "kind" specified.
     .hist()
     .area()
     .bar([stacked])
