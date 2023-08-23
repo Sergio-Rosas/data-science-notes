@@ -44,8 +44,8 @@ pd.merge(left_df, right_df[, how], on) --> Merges Data Frames based on a column.
     groups with "columns" specified.
 .idxmax() --> Returns the index value of the max value in a column.
 .idxmin() --> Returns the index value of the min value in a column.
-.filter([like, axis]) -->
-.get_dummies(column[, drop_first) -->
+.filter(func[, like, axis]) -->
+.get_dummies(column[, drop_first]) -->
 
 -Properties:
 .shape --> Shows the shape of the data frame in a tuple in the form (row, column)
