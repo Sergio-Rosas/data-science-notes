@@ -11,6 +11,7 @@ sns.pairplot(dataframe[, hue, palette]) -->
 sns.rugplot(dataframe_column) -->
 sns.kdeplot(dataframe_column) -->
 sns.histplot(data, x, y) -->
+sns.scatterplot(data, x, y) -->
 
 
 Categorical plots:
