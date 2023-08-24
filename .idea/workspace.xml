@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="07bc380b-fc95-4819-bbef-d2b30c376d47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Refactored_Py_DS_ML_Bootcamp-master/22-Deep Learning/04-Tensorflow Project Exercise.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Refactored_Py_DS_ML_Bootcamp-master/22-Deep Learning/04-Tensorflow Project Exercise.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seaborn - Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Seaborn - Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Refactored_Py_DS_ML_Bootcamp-master/22-Deep Learning/TensorFlow_FILES/ANNs/.ipynb_checkpoints/03-Keras-Project-Exercise-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Refactored_Py_DS_ML_Bootcamp-master/22-Deep Learning/TensorFlow_FILES/ANNs/.ipynb_checkpoints/03-Keras-Project-Exercise-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Refactored_Py_DS_ML_Bootcamp-master/22-Deep Learning/TensorFlow_FILES/ANNs/03-Keras-Project-Exercise.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Refactored_Py_DS_ML_Bootcamp-master/22-Deep Learning/TensorFlow_FILES/ANNs/03-Keras-Project-Exercise.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,8 @@
       <workItem from="1692148021205" duration="3288000" />
       <workItem from="1692320052486" duration="4961000" />
       <workItem from="1692663735806" duration="2875000" />
-      <workItem from="1692751354381" duration="6199000" />
+      <workItem from="1692751354381" duration="6982000" />
+      <workItem from="1692837195001" duration="5167000" />
     </task>
     <servers />
   </component>
@@ -95,12 +96,12 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="447" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1690946001259" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1692751437308">
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1692837217979">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="-1387" y="151" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1920.-124.1920.1050@-1920.-124.1920.1050" timestamp="1691538232859" />
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1920.-124.1920.1050@0.0.1366.738" timestamp="1691459333167" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1692751437308" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1692837217979" />
     <state x="-1297" y="103" width="672" height="678" key="search.everywhere.popup" timestamp="1691465946154">
       <screen x="-1920" y="-124" width="1920" height="1050" />
     </state>
