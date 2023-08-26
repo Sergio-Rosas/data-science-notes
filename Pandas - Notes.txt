@@ -15,6 +15,7 @@ pd.Series(data, index) --> Creates a series from lists, arrays, dictionaries.
 pd.DataFrame(data, index, columns) --> Creates a data frame (a list of series).
 pd.concat([list_of_data][, axis]) --> Concatenate Data Frames.
 pd.merge(left_df, right_df[, how], on) --> Merges Data Frames based on a column.
+pd.get_dummies(data[, drop_first]) -->
 
 -Methods:
 .head([n]) --> Shows only the first n rows of the Data Frame.
@@ -45,13 +46,14 @@ pd.merge(left_df, right_df[, how], on) --> Merges Data Frames based on a column.
 .idxmax() --> Returns the index value of the max value in a column.
 .idxmin() --> Returns the index value of the min value in a column.
 .filter(func[, like, axis]) -->
-.get_dummies(column[, drop_first]) -->
+.select_dtypes([include, exclude]) -->
 
 -Properties:
 .shape --> Shows the shape of the data frame in a tuple in the form (row, column)
 .index --> Shows information of the indices.
 .index.names --> Shows or sets the names of the indexes.
 .columns --> Returns a list of column names.
+.values --> 
 
 
 *Operations
